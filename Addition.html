@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="30">
+
+    <title>Document</title>
+    <style>
+       body {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 0;
+}
+.button {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 18px;
+}
+
+
+        .container{
+            height:auto;
+            width: 25%;
+            align-items: center;
+            border: 0.1cm solid black;
+            border-radius: 5%;
+            background-color: aqua;
+        }
+
+        .button{
+            height:25%;
+            width: 25%;
+            margin-right: 10%;
+            margin-bottom: 10%;
+            margin-left: 10%;
+            background-color: gray;
+        }
+        #display {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    height: 40px;
+    font-size: 18px;
+    text-align: right;
+}
+
+        .row
+        {
+
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style=" align-self: center;">
+        <input type="text" id="display"  readonly placeholder="Results"><br><br>
+        <div class="row">
+            <button class="button" onclick="appendValue('1')">1</button>
+            <button class="button" onclick="appendValue('2')">2</button>
+            <button class="button" onclick="appendValue('3')">3</button>
+        </div>
+         <div class="row">
+            <button class="button" onclick="appendValue('4')">4</button>
+            <button class="button" onclick="appendValue('5')">5</button>
+            <button class="button" onclick="appendValue('6')">6</button>
+        </div>
+         <div class="row">
+            <button class="button" onclick="appendValue('7')">7</button>
+            <button class="button" onclick="appendValue('8')">8</button>
+            <button class="button" onclick="appendValue('9')">9</button>
+        </div>
+         <div class="row">
+            <button class="button" onclick="appendValue('+')">+</button>
+            <button class="button" onclick="appendValue('0')">0</button>
+            <button class="button" onclick="appendValue('-')">-</button>
+        </div>
+                 <div class="row">
+            <button class="button" onclick="appendValue('*')">*</button>
+            <button class="button" onclick="appendValue('/')">/</button>
+            <button class="button" onclick="clearDisplay()">C</button>
+        </div>
+    <br>
+    <br>
+    <input type="submit" onclick="Operation()" style="align-content: center;">
+    </div>
+    <script>
+        function appendValue(value)
+        {
+          const display=document.getElementById("display")
+          display.value+=value;
+        }
+         function Operation(){
+            const display=document.getElementById("display");
+            try
+            {
+             display.value=eval(display.value);
+            }
+            catch{
+                display.value="Err";
+            }
+         }
+         function clearDisplay(){
+            const display=document.getElementById("display");
+            display.value="";
+         }
+    </script>
+</body>
+</html>

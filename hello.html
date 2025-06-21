@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+   <p>Enter Your Name:-<textarea name="tb" id="demo"></textarea></p>
+      <p>Enter Your Age:- <input type="number" id="Mobile"></p>
+   <p>Enter Your Mobile No.:-<textarea name="tb" id="demo"></textarea></p>
+   <p>Enter Your Address:-<textarea name="tb" id="demo"></textarea></p>
+   <p>Enter Your Branch:-<textarea name="tb" id="demo"></textarea></p>
+   <p>Enter Your College:-<textarea name="tb" id="demo"></textarea></p>
+
+   <input type="submit"  onclick="capital()">
+   <p id="d">dhd</p>
+   <script>
+    function capital(){
+       document.getElementById("d").innerHTML="Hello "+((document.getElementById("demo").value).toUpperCase()); 
+    }
+   </script>
+   </form>
+</body>
+</html>

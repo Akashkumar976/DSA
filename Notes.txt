@@ -1,0 +1,24 @@
+Static   to   Non Static      -> False
+Non Static   to   Static      -> True
+Non Static   to   Non Static      -> True
+Static   to   Static      -> True
+
+
+Overiding 
+{
+    @override is used to override the methods.
+    Overiding is used when parent class same method is used in child class with new operation but with same parameters.
+}
+Abstraction 
+{
+    declared usin the abstract keyword.
+    abstract class contains both abstract and non abstract methods.
+}
+Interfaces
+{
+    implement keyword
+    all field are public,Static and final by default.
+    class that implements an Interface must implement all methods declared in Interface.
+    All methods are public and abstract by default.
+    It suppports multiple inheritance in java.
+}
