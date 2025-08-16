@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MinimumPathSum",
+      "request": "launch",
+      "mainClass": "MinimumPathSum",
+      "projectName": "Training& PlacementDSA_dfe0aec1"
+    },
+    {
+      "type": "java",
+      "name": "CombinationSum",
+      "request": "launch",
+      "mainClass": "CombinationSum",
+      "projectName": "Training& PlacementDSA_dfe0aec1"
+    },
+    {
+      "type": "java",
       "name": "MaxSumIncreasingSegment",
       "request": "launch",
       "mainClass": "MaxSumIncreasingSegment",
