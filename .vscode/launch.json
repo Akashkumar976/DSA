@@ -3,6 +3,111 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ZigZagArray",
+      "request": "launch",
+      "mainClass": "ZigZagArray",
+      "projectName": "Training& PlacementDSA_dfe0aec1"
+    },
+    {
+      "type": "java",
+      "name": "RotateKLinkedListNodes",
+      "request": "launch",
+      "mainClass": "RotateKLinkedListNodes",
+      "projectName": "Training& PlacementDSA_dfe0aec1"
+    },
+    {
+      "type": "java",
+      "name": "ReverseLinkedList",
+      "request": "launch",
+      "mainClass": "ReverseLinkedList",
+      "projectName": "Training& PlacementDSA_dfe0aec1"
+    },
+    {
+      "type": "java",
+      "name": "RightSide",
+      "request": "launch",
+      "mainClass": "RightSide",
+      "projectName": "Training& PlacementDSA_dfe0aec1"
+    },
+    {
+      "type": "java",
+      "name": "MergeSort1",
+      "request": "launch",
+      "mainClass": "MergeSort1",
+      "projectName": "Training& PlacementDSA_dfe0aec1"
+    },
+    {
+      "type": "java",
+      "name": "FirstAndLastIndex",
+      "request": "launch",
+      "mainClass": "FirstAndLastIndex",
+      "projectName": "Training& PlacementDSA_dfe0aec1"
+    },
+    {
+      "type": "java",
+      "name": "UpperBound",
+      "request": "launch",
+      "mainClass": "UpperBound",
+      "projectName": "Training& PlacementDSA_dfe0aec1"
+    },
+    {
+      "type": "java",
+      "name": "LowerBound",
+      "request": "launch",
+      "mainClass": "LowerBound",
+      "projectName": "Training& PlacementDSA_dfe0aec1"
+    },
+    {
+      "type": "java",
+      "name": "Range",
+      "request": "launch",
+      "mainClass": "Range",
+      "projectName": "Training& PlacementDSA_dfe0aec1"
+    },
+    {
+      "type": "java",
+      "name": "SticksGame",
+      "request": "launch",
+      "mainClass": "SticksGame",
+      "projectName": "Training& PlacementDSA_dfe0aec1"
+    },
+    {
+      "type": "java",
+      "name": "ClockCost",
+      "request": "launch",
+      "mainClass": "ClockCost",
+      "projectName": "Training& PlacementDSA_dfe0aec1"
+    },
+    {
+      "type": "java",
+      "name": "MiniBank",
+      "request": "launch",
+      "mainClass": "MiniBank",
+      "projectName": "Training& PlacementDSA_dfe0aec1"
+    },
+    {
+      "type": "java",
+      "name": "BankProject",
+      "request": "launch",
+      "mainClass": "BankProject",
+      "projectName": "Training& PlacementDSA_dfe0aec1"
+    },
+    {
+      "type": "java",
+      "name": "SofaProblem",
+      "request": "launch",
+      "mainClass": "SofaProblem",
+      "projectName": "Training& PlacementDSA_dfe0aec1"
+    },
+    {
+      "type": "java",
+      "name": "StairCostSum",
+      "request": "launch",
+      "mainClass": "StairCostSum",
+      "projectName": "Training& PlacementDSA_dfe0aec1"
+    },
+    {
+      "type": "java",
       "name": "MinimumPathSum",
       "request": "launch",
       "mainClass": "MinimumPathSum",
