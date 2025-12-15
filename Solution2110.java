@@ -1,4 +1,4 @@
-class    {
+class Solution2110 {
     public long getDescentPeriods(int[] prices) {
         long max=1;
         long len=1;
